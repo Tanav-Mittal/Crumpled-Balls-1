@@ -9,8 +9,8 @@ class Paper
         density:1.2
     }
     this.body = Bodies.circle(x, y,radius,options);
-    this.x = x;
-    this.y = y;
+    //this.x = x;
+    //this.y = y;
     this.radius = radius;
     World.add(world, this.body);
   }
@@ -18,6 +18,6 @@ class Paper
     {
         fill("white");
         ellipseMode(CENTER);
-        ellipse(this.x,this.y,this.radius);
+        ellipse(this.body.position.x,this.body.position.y,this.radius);
     }
 }
