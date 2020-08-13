@@ -16,7 +16,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper(100,590,30,{isStatic:false});
+	paper = new Paper(400,590,30,{isStatic:false});
 
 	log1 = new Log(600,600,100,15);
 	log2 = new Log(546,555,15,100);
