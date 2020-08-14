@@ -42,7 +42,7 @@ function draw() {
 
   ground.display();
 
-  keyPressed();
+  
   //drawSprites();
  
 }
