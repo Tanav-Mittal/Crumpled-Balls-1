@@ -18,6 +18,7 @@ function setup() {
 
 	paper = new Paper(100,590,30,{isStatic:false});
 
+			  
 	log1 = new Log(600,600,100,15);
 	log2 = new Log(546,555,15,100);
 	log3 = new Log(650,555,15,100);
