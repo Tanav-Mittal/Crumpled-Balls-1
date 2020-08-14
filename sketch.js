@@ -51,7 +51,7 @@ function keyPressed()
 {
 	if (keyCode === UP_ARROW)
 	{
-		Body.applyForce(paper.body,paper.body.position,{x:1000,y:-1000})
+		Body.applyForce(paper.body,paper.body.position,{x:500,y:-500})
 	}
 
 }
